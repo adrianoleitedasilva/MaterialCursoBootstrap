@@ -1,0 +1,58 @@
+h1 {
+    color: red;
+}
+
+
+/* CONTAINERS */
+.container-sm {
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.container-md {
+    margin-bottom: 20px;
+    border: 2px solid blue;
+}
+
+.container-lg {
+    margin-bottom: 20px;
+    border: 2px solid chocolate;
+}
+
+/* GRID */
+.container {
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col, .col-4, .col-2, .col-1, .col-11, .col-6, .col-3 {
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-limitada {
+    max-width: 500px;
+}
+
+/* ALINHAMENTO VERTICAL */
+.vertical {
+    border: 3px solid coral;
+    height: 250px;
+}
+
+.vertical .row {
+    height: 100%;
+}
+
+.vertical .col-6, .vertical .col-3, .vertical .col-4 {
+    height: 50%;
+}
