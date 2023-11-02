@@ -54,5 +54,28 @@ h1 {
 }
 
 .vertical .col-6, .vertical .col-3, .vertical .col-4 {
-    height: 50%;
+    height: 50px;
+}
+
+/* OFFSET */
+#offset {
+    height: auto;
+}
+
+#offset .col-md-3{
+    height: 50px;
+    border: 2px solid red;
+}
+
+/* GUTTER */
+#gutter .row {
+    height: 200px;
+}
+
+#gutter .col-6 {
+    margin: auto;
+}
+
+.row p {
+    border: 2px solid green;
 }

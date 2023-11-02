@@ -87,3 +87,29 @@ Podemos combinar os alinhamentos vertical e horizontal
 - Utilizamos classes como: align-self-center
 - Que alinha um elemento na vertical
 - Não há alinhamento unitário para a horizontal
+
+## Ordem dos Items
+
+- É possível alterar a ordem que os itens são exibidos
+- Vamos colocar a class order-*
+- Onde o * é a posição do elemento, sendo 1 o primeiro
+- Este recurso é útil no desenvolvimento mobile, onde os elementos costuma mudar de ordem
+
+## Offset das Colunas
+
+- Podemos criar um espaçamento com o offset
+- Ou seja, teremos uma margem da borda definida por uma quantidade de colunas
+- Exemplo - offset-md-3
+- Neste caso temos um offset de 3 coluna a esquerda
+
+## Gutter
+
+- Os gutters são intervalos que podemos inserir entre as colunas
+- É possível inserir no eixo X e Y
+- Horizontal = gx-2
+- Vertical - gy-4
+- Os números que utiulizamos são baseados em rem da página, fonte do elemento root
+- O número 3 é a referência para 1rem
+
+Gutter X controla o padding para espaçar o elemento
+Gutter Y controla a Margin, que no nosso exemplo está sendo Zerada!
